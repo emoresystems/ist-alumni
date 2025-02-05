@@ -66,7 +66,7 @@ DB_USERNAME=your_database_user
 DB_PASSWORD=your_database_password
 ```
 
-#### Create the Database
+#### Create the Database(Optional)
 
 Make sure you have created the database specified in the `.env` file, either via MySQL or another DB management tool.
 
@@ -75,7 +75,7 @@ mysql -u root -p
 CREATE DATABASE your_database_name;
 ```
 
-### 6. Run Database Migrations
+### 6. Run Database Migrations 
 
 Run Laravel’s database migrations to set up the required tables:
 
